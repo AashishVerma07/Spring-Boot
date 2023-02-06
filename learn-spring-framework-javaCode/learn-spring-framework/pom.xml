@@ -8,7 +8,7 @@
 		<version>3.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.learnSpring</groupId>
+	<groupId>com.1sttry</groupId>
 	<artifactId>learn-spring-framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>learn-spring-framework</name>
