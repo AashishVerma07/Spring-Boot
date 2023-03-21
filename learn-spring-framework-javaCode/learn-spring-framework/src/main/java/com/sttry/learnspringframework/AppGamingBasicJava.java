@@ -15,14 +15,13 @@ public class AppGamingBasicJava {
 //        MarioGame game = new MarioGame();
 
         // Create PacMan Class object
-        PacMan game = new PacMan();
+//        PacMan pacMan = new PacMan();
 
         //Create SuperContra class object.
-//        SuperContra superContra = new SuperContra;
+        SuperContra superContra = new SuperContra();
 
-        // Create gameRunner class and pass object in arguments.
-        GameRunner gameRunner = new GameRunner(game); // Wiring of dependencies.
-//        GameRunner gameRunner = new GameRunner(superContra);
+        // Create gameRunner class constructor and pass object in arguments.
+        GameRunner gameRunner = new GameRunner(superContra); // Wiring of dependencies.
 
         // Call method form GameRunner class.
         gameRunner.run();

@@ -7,22 +7,22 @@ public class GameRunner {
 //         this.game = game;
 //     }
 
-    // Constructor for superContra class.
+//     Constructor for superContra class.
 //    SuperContra game;
 //    public GameRunner(SuperContra game){
 //        this.game = game;
 //    }
 
     //Here we create a interface with aal methods which are present in both class and implements in both classes.
-    GamingConsole game;
-    public GameRunner(GamingConsole game){
-        this.game = game;
+    GamingConsole gamingConsole;
+    public GameRunner(GamingConsole gamingConsole){
+        this.gamingConsole = gamingConsole;
     }
     public void run() {
-        System.out.println("Running game: " + game);
-        game.up();
-        game.right();
-        game.left();
-        game.down();
+        System.out.println("Running game: " + gamingConsole);
+        gamingConsole.up();
+        gamingConsole.right();
+        gamingConsole.left();
+        gamingConsole.down();
     }
 }
